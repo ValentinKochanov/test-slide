@@ -1,10 +1,9 @@
-import './App.css';
-import Slider from './slider/Slider';
+import SliderContainer from './slider/SliderContainer';
 
 function App() {
   return (
-    <div className="App">
-      <Slider/>
+    <div>
+      <SliderContainer/>
     </div>
   );
 }
