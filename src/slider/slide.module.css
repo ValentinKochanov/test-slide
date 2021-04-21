@@ -1,18 +1,64 @@
 .pagination{
   position: fixed;
 }
-
 .wrapper {
   display: flex;
   flex-wrap:wrap;
   width: 3072px;
   height: 2304px;
-  background-image: url("img/bg.png");
+  background-image: url("img/background2.png");
   background-size: contain;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat; 
 }
-
-.slider{
+.slider{ 
   width: 1024px;
   height: 768px;
 }
+.slide1{
+  animation: circle 2s infinite ease-in-out alternate-reverse;
+}
+.header1{
+  color:#285bae;
+  font-size: 48px;
+  padding:100px
+}
+@keyframes circle {
+  0% {background-image: url("img/animation/slide1_cel-1.png"),
+    url("img/animation/slide1_gipoglic-1.png"), 
+    url("img/animation/slide1_oslozhneniya-1.png"), 
+    url("img/animation/slide1_ssrisky-1.png");}
+  33% {background-image: url("img/animation/slide1_cel-2.png"),
+    url("img/animation/slide1_gipoglic-2.png"), 
+    url("img/animation/slide1_oslozhneniya-2.png"), 
+    url("img/animation/slide1_ssrisky-2.png");}
+  66% {background-image: url("img/animation/slide1_cel-3.png"),
+    url("img/animation/slide1_gipoglic-3.png"), 
+    url("img/animation/slide1_oslozhneniya-3.png"), 
+    url("img/animation/slide1_ssrisky-3.png");}
+  100% {background-image: url("img/animation/slide1_cel-4.png"),
+    url("img/animation/slide1_gipoglic-4.png"), 
+    url("img/animation/slide1_oslozhneniya-4.png"), 
+    url("img/animation/slide1_ssrisky-4.png");}
+  }
+  /* .HbA1{
+    color:#285bae;
+    font-size: 20px;
+  }
+  .gipoglicemia{
+    color:#285bae;
+    font-size: 20px;
+  }
+  .oslozhnenia{
+    color:#285bae;
+    font-size: 20px;
+  }
+  .risky{
+    color:#285bae;
+    font-size: 20px;
+  }
+  .listaite{
+    font-size: 18px;
+    color:#fff;
+    position: relative;
+    bottom: -150px; 
+  } */
