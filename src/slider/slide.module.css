@@ -20,7 +20,20 @@
 .header1{
   color:#285bae;
   font-size: 48px;
-  padding:100px
+  padding-top:100px;
+  padding-left:100px;
+  height:130px;
+  margin:0%;
+}
+.header2{
+  color:#fff;
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  width: 400px;
+  padding-left: 320px;
+  padding-top: 280px;
 }
 @keyframes circle {
   0% {background-image: url("img/animation/slide1_cel-1.png"),
@@ -40,25 +53,33 @@
     url("img/animation/slide1_oslozhneniya-4.png"), 
     url("img/animation/slide1_ssrisky-4.png");}
   }
-  /* .HbA1{
+   .HbA1{
     color:#285bae;
     font-size: 20px;
+    padding-left:600px;
+    padding-bottom: 120px;
   }
   .gipoglicemia{
     color:#285bae;
     font-size: 20px;
+    padding-left:300px;
+    padding-bottom:50px;
   }
   .oslozhnenia{
     color:#285bae;
     font-size: 20px;
+    margin:0%;
+    padding-left:500px;
   }
   .risky{
     color:#285bae;
     font-size: 20px;
+    padding-left:840px;
+    margin:0%;
   }
   .listaite{
     font-size: 18px;
     color:#fff;
-    position: relative;
-    bottom: -150px; 
-  } */
+    padding-top: 120px;
+    padding-left: 40px;
+  } 
